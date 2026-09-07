@@ -1,12 +1,5 @@
 import type { Action, State } from "./types";
 
-type Task = {
-  id: string;
-  title: string;
-  description?: string;
-  completed: boolean;
-};
-
 export function reducer(state: State, action: Action): State {
   switch (action.type) {
     case "ROUTE_CHANGED":

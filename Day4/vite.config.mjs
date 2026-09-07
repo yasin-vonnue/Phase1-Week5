@@ -6,4 +6,8 @@ export default defineConfig({
   build: {
     outDir: "docs",
   },
+
+  test: {
+    environment: "node",
+  },
 });

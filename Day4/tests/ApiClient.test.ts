@@ -1,6 +1,5 @@
 import { describe, expect, it, vi } from "vitest";
-import { ApiClient } from "../src/utils/ApiClient.js";
-import { mock } from "node:test";
+import { ApiClient } from "@utils/ApiClient";
 
 describe("ApiClient", () => {
   it("returns correctly typed response data", async () => {

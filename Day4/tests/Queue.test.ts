@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { Queue } from "../src/utils/Queue.js";
+import { Queue } from "@utils/Queue";
 
 describe("Queue<T>", () => {
   it("stores and retrieves strings", () => {

@@ -1,5 +1,5 @@
-import { Button } from "../components/Button.js";
-import { Card } from "../components/Card.js";
+import { Button } from "@components/Button";
+import { Card } from "@components/Card";
 import { navigate } from "../router.js";
 import type { Store } from "../state/types.js";
 
